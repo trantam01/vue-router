@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+   coffee:
+     image:  page-coffee
+     build: .
+     restart: always
+     container_name:  page-tam
+     ports:
+       - "5000:5000"
