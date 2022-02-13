@@ -1,11 +1,11 @@
 <template>
   <nav>
     <img alt="logo" src="../assets/logo.png" />
-    <h1>Welcome to page://am</h1>
+    <h1>Welcome to page://tam</h1>
     <ul class="nav-link">
-      <li><a href="/"> Home</a></li>
-      <li><a href="/products"> Product</a></li>
-      <li><a href="/about"> About</a></li>
+      <li><router-link to="/"> Home</router-link></li>
+      <li><router-link to="/products"> Our Services</router-link></li>
+      <li><router-link to="/about"> About</router-link></li>
     </ul>
   </nav>
 </template>
